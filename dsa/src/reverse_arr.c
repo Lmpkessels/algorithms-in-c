@@ -45,7 +45,7 @@ int main() {
     // Get the exact size of index positions (40 / 4 = 10)
     int n = sizeof(arr) / sizeof(arr[10]);
 
-    reverse(arr, n);
+    reverse_arr(arr, n);
     
     // Should be 10, 9, 8, ...
     for (int i = 0; i < n; i++) {
